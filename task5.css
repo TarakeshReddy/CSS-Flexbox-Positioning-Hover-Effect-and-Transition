@@ -1,0 +1,17 @@
+div{
+   display: flex; 
+   flex-wrap: wrap;
+   column-gap: 30px;
+   row-gap: 30px;
+
+}
+div img{
+    border-radius:20px;
+    width:200px;
+    height:200px;
+    transition: all 1s linear;
+}
+div img:hover{
+    transform: scale(1.2);
+    
+}

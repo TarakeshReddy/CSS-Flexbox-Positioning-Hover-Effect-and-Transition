@@ -1,0 +1,27 @@
+header{
+    background-color: aquamarine;
+    height:80px;
+    position:sticky;
+    top:0;
+}
+nav{
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    padding: 20px;
+}
+
+nav a{
+    text-decoration: none !important;
+    font-size: 24px;
+
+}
+nav a:hover{
+    background-color: blueviolet;
+}
+nav a:active{
+    background-color: blue;
+}
+nav a:focus{
+    background-color:wheat;
+}
